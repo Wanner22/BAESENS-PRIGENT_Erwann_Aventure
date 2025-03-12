@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Sc_CreateMMObjects",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Sc_CreateMMObjects",
+  "parent":{
+    "name":"MiniMap",
+    "path":"folders/Scripts/MiniMap.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
