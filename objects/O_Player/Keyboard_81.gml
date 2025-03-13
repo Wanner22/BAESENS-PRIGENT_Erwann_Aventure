@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 273F244B
+/// @DnDArgument : "spriteind" "S_Player_Left"
+/// @DnDSaveInfo : "spriteind" "S_Player_Left"
+sprite_index = S_Player_Left;
+image_index = 0;
+
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
 /// @DnDVersion : 1.1
 /// @DnDHash : 60FF08F2

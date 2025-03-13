@@ -11,4 +11,4 @@ function Sc_Heal(amount) {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "expr" "1"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "O_Life_Manager.player_hp"
-	O_Life_Manager.player_hp += 1;}
+	O_Player_Life_Manager.player_hp += 1;}

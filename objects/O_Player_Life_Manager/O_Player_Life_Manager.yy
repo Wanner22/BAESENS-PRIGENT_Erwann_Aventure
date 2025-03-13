@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"O_Life_Manager",
+  "%Name":"O_Player_Life_Manager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Life_Manager",
+  "name":"O_Player_Life_Manager",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
