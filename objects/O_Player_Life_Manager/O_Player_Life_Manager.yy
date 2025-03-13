@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"S_Heart",
-    "path":"sprites/S_Heart/S_Heart.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

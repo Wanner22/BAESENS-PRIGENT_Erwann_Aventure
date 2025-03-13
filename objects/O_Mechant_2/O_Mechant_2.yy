@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"O_Mechant_2",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_Mechant_2",
   "overriddenProperties":[],
@@ -24,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"ennemy_hp","filters":[],"listItems":[],"multiselect":false,"name":"ennemy_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"7","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"mechant2_hp","filters":[],"listItems":[],"multiselect":false,"name":"mechant2_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"8","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

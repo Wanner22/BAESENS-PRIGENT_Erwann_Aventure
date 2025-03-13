@@ -21,4 +21,18 @@ function Sc_CreateMMObjects(object) {	/// @DnDAction : YoYo Games.Instances.Cr
 	/// @DnDParent : 3BB13BD4
 	/// @DnDArgument : "expr" "object"
 	/// @DnDArgument : "var" "justCreatedObject.parentObject"
-	justCreatedObject.parentObject = object;}
+	justCreatedObject.parentObject = object;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 55C4D3D1
+	/// @DnDInput : 2
+	/// @DnDParent : 3BB13BD4
+	/// @DnDArgument : "expr" "object.image_xscale"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "expr_1" "object.image_yscale"
+	/// @DnDArgument : "expr_relative_1" "1"
+	/// @DnDArgument : "var" "justCreatedObject.image_xscale"
+	/// @DnDArgument : "var_1" "justCreatedObject.image_yscale"
+	justCreatedObject.image_xscale += object.image_xscale;
+	justCreatedObject.image_yscale += object.image_yscale;}

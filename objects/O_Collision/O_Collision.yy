@@ -29,11 +29,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"S_Collision",
     "path":"sprites/S_Collision/S_Collision.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

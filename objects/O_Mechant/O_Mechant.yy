@@ -28,8 +28,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"ennemy_hp","filters":[],"listItems":[],"multiselect":false,"name":"ennemy_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"parent","filters":[],"listItems":[],"multiselect":false,"name":"parent","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"O_Ennemy_Manager","path":"objects/O_Ennemy_Manager/O_Ennemy_Manager.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"O_Ennemy_Manager","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"mechant1_hp","filters":[],"listItems":[],"multiselect":false,"name":"mechant1_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

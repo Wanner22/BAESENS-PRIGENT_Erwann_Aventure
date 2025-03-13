@@ -31,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"S_MiniMap",
-    "path":"sprites/S_MiniMap/S_MiniMap.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
