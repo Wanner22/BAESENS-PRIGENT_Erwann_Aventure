@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_Mechant_2",
+  "%Name":"O_Mechant_3",
   "eventList":[],
   "managed":true,
-  "name":"O_Mechant_2",
+  "name":"O_Mechant_3",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Mechant","path":"objects/O_Mechant/O_Mechant.yy",},"propertyId":{"name":"mechant_hp","path":"objects/O_Mechant/O_Mechant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"8",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Mechant","path":"objects/O_Mechant/O_Mechant.yy",},"propertyId":{"name":"mechant_hp","path":"objects/O_Mechant/O_Mechant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
   ],
   "parent":{
     "name":"Objects",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Mechant_2",
-    "path":"sprites/S_Mechant_2/S_Mechant_2.yy",
+    "name":"S_Mechant_3",
+    "path":"sprites/S_Mechant_3/S_Mechant_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,
