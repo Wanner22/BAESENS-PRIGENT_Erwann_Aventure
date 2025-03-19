@@ -9,9 +9,8 @@ function Sc_Reduce_Player_Life(amount) {	/// @DnDAction : YoYo Games.Common.If
 	/// @DnDHash : 4CB6002D
 	/// @DnDParent : 2E6F81AD
 	/// @DnDArgument : "var" "O_Player_Life_Manager.isInvicible"
-	/// @DnDArgument : "not" "1"
-	/// @DnDArgument : "value" "true"
-	if(!(O_Player_Life_Manager.isInvicible == true)){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDArgument : "value" "false"
+	if(O_Player_Life_Manager.isInvicible == false){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 50C4D771
 		/// @DnDInput : 2
