@@ -67,15 +67,7 @@ function Sc_Enemy_Static_Pattern(enemy) {	/// @DnDAction : YoYo Games.Common.I
 				/// @DnDParent : 38C69FFE
 				/// @DnDArgument : "expr" "true"
 				/// @DnDArgument : "var" "enemy.collided"
-				enemy.collided = true;
-			
-				/// @DnDAction : YoYo Games.Common.Execute_Script
-				/// @DnDVersion : 1.1
-				/// @DnDHash : 7309F29E
-				/// @DnDParent : 38C69FFE
-				/// @DnDArgument : "script" "Sc_Enemy_Attack"
-				/// @DnDSaveInfo : "script" "Sc_Enemy_Attack"
-				script_execute(Sc_Enemy_Attack);}}}
+				enemy.collided = true;}}}
 
 	/// @DnDAction : YoYo Games.Common.Else
 	/// @DnDVersion : 1
@@ -87,7 +79,8 @@ function Sc_Enemy_Static_Pattern(enemy) {	/// @DnDAction : YoYo Games.Common.I
 		/// @DnDParent : 4DC28BF0
 		/// @DnDArgument : "var" "distance_to_point(xstart, ystart)"
 		/// @DnDArgument : "op" "2"
-		if(distance_to_point(xstart, ystart) > 0){	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+		/// @DnDArgument : "value" "1"
+		if(distance_to_point(xstart, ystart) > 1){	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 			/// @DnDVersion : 1
 			/// @DnDHash : 229FA2DA
 			/// @DnDParent : 233154A7
@@ -106,9 +99,15 @@ function Sc_Enemy_Static_Pattern(enemy) {	/// @DnDAction : YoYo Games.Common.I
 		/// @DnDVersion : 1
 		/// @DnDHash : 6081E7DA
 		/// @DnDParent : 4DC28BF0
-		else{	/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
-			/// @DnDVersion : 1.1
-			/// @DnDHash : 6F6DDBF5
+		else{	/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 2AAD81D3
 			/// @DnDParent : 6081E7DA
-			speed = 0;
-			direction = 0;}}}
+			/// @DnDArgument : "var" "speed"
+			/// @DnDArgument : "not" "1"
+			if(!(speed == 0)){	/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
+				/// @DnDVersion : 1.1
+				/// @DnDHash : 015C347F
+				/// @DnDParent : 2AAD81D3
+				speed = 0;
+				direction = 0;}}}}

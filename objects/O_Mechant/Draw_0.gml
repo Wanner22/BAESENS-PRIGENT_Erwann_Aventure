@@ -1,3 +1,8 @@
+/// @DnDAction : YoYo Games.Drawing.Draw_Self
+/// @DnDVersion : 1
+/// @DnDHash : 3CD12916
+draw_self();
+
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 6F43AA08
