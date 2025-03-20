@@ -40,6 +40,7 @@
     {"$GMObjectProperty":"v1","%Name":"MMColor","filters":[],"listItems":[],"multiselect":false,"name":"MMColor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF0000FF","varType":7,},
     {"$GMObjectProperty":"v1","%Name":"is_attacking","filters":[],"listItems":[],"multiselect":false,"name":"is_attacking","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"collided","filters":[],"listItems":[],"multiselect":false,"name":"collided","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"fov","filters":[],"listItems":[],"multiselect":false,"name":"fov","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"150","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

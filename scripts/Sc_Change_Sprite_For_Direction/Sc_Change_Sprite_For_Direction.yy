@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Sc_Spawn_Object",
+  "%Name":"Sc_Change_Sprite_For_Direction",
   "isCompatibility":false,
   "isDnD":true,
-  "name":"Sc_Spawn_Object",
+  "name":"Sc_Change_Sprite_For_Direction",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

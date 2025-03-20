@@ -2,8 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 6C066C5C
 /// @DnDComment : // Script assets have changed for v2.3.0 see$(13_10)// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-/// @DnDArgument : "funcName" "Sc_Spawn_Object"
-function Sc_Spawn_Object() {	/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDArgument : "funcName" "Sc_Drop_Object"
+function Sc_Drop_Object() {	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 2DD90D2C
 	/// @DnDParent : 6C066C5C

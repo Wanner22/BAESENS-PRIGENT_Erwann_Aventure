@@ -20,9 +20,9 @@ if(mechant_hp <= 0){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 020D780C
 	/// @DnDParent : 301E2F42
-	/// @DnDArgument : "script" "Sc_Spawn_Object"
-	/// @DnDSaveInfo : "script" "Sc_Spawn_Object"
-	script_execute(Sc_Spawn_Object);}
+	/// @DnDArgument : "script" "Sc_Drop_Object"
+	/// @DnDSaveInfo : "script" "Sc_Drop_Object"
+	script_execute(Sc_Drop_Object);}
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
@@ -44,9 +44,3 @@ if(collided == true){	/// @DnDAction : YoYo Games.Common.Execute_Script
 	/// @DnDArgument : "script" "Sc_Enemy_Attack"
 	/// @DnDSaveInfo : "script" "Sc_Enemy_Attack"
 	script_execute(Sc_Enemy_Attack);}
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 0703C2AF
-/// @DnDArgument : "msg" "speed"
-show_debug_message(string(speed));

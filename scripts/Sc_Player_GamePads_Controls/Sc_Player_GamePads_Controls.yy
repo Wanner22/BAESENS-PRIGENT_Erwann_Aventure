@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Sc_Player_GamePads_Controls",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Sc_Player_GamePads_Controls",
+  "parent":{
+    "name":"Controlls",
+    "path":"folders/Scripts/Controlls.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
