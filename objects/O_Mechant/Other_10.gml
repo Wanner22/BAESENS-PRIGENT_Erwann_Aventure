@@ -12,3 +12,9 @@ mechant_hp += -1;
 /// @DnDArgument : "colour" "$FF0000E5"
 image_blend = $FF0000E5 & $ffffff;
 image_alpha = ($FF0000E5 >> 24) / $ff;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 3ED80263
+/// @DnDArgument : "alarm" "3"
+alarm_set(3, 30);
