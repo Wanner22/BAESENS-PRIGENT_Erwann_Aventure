@@ -1,22 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"O_Mechant_3",
+  "%Name":"O_Mechant_Path",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Mechant_3",
+  "name":"O_Mechant_Path",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Mechant","path":"objects/O_Mechant/O_Mechant.yy",},"propertyId":{"name":"mechant_hp","path":"objects/O_Mechant/O_Mechant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy_Manager","path":"objects/O_Enemy_Manager/O_Enemy_Manager.yy",},"propertyId":{"name":"mechant_hp","path":"objects/O_Enemy_Manager/O_Enemy_Manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
   ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"O_Mechant",
-    "path":"objects/O_Mechant/O_Mechant.yy",
+    "name":"O_Enemy_Manager",
+    "path":"objects/O_Enemy_Manager/O_Enemy_Manager.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -8,10 +8,9 @@ function Sc_Enemy_Static_Pattern(enemy) {	/// @DnDAction : YoYo Games.Common.I
 	/// @DnDVersion : 1
 	/// @DnDHash : 36F06D11
 	/// @DnDParent : 4716AFCF
-	/// @DnDArgument : "var" "distance_to_object(O_Player)"
-	/// @DnDArgument : "op" "1"
-	/// @DnDArgument : "value" "fov"
-	if(distance_to_object(O_Player) < fov){	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDArgument : "var" "player_detected"
+	/// @DnDArgument : "value" "true"
+	if(player_detected == true){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 7216D2D4
 		/// @DnDParent : 36F06D11
@@ -22,9 +21,9 @@ function Sc_Enemy_Static_Pattern(enemy) {	/// @DnDAction : YoYo Games.Common.I
 			/// @DnDVersion : 1
 			/// @DnDHash : 5238E418
 			/// @DnDParent : 7216D2D4
-			/// @DnDArgument : "x" "O_Player.x"
-			/// @DnDArgument : "y" "O_Player.y"
-			direction = point_direction(x, y, O_Player.x, O_Player.y);
+			/// @DnDArgument : "x" "O_Player.x - 16"
+			/// @DnDArgument : "y" "O_Player.y - 16"
+			direction = point_direction(x, y, O_Player.x - 16, O_Player.y - 16);
 		
 			/// @DnDAction : YoYo Games.Movement.Set_Speed
 			/// @DnDVersion : 1
@@ -69,14 +68,25 @@ function Sc_Enemy_Static_Pattern(enemy) {	/// @DnDAction : YoYo Games.Common.I
 				/// @DnDArgument : "var" "enemy.collided"
 				enemy.collided = true;}}}
 
-	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 4DC28BF0
+	/// @DnDHash : 19B7C401
 	/// @DnDParent : 4716AFCF
-	else{	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDArgument : "var" "distance_to_object(O_Player)"
+	/// @DnDArgument : "op" "4"
+	/// @DnDArgument : "value" "200"
+	if(distance_to_object(O_Player) >= 200){	/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 2053103F
+		/// @DnDParent : 19B7C401
+		/// @DnDArgument : "expr" "false"
+		/// @DnDArgument : "var" "player_detected"
+		player_detected = false;
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 233154A7
-		/// @DnDParent : 4DC28BF0
+		/// @DnDParent : 19B7C401
 		/// @DnDArgument : "var" "distance_to_point(xstart, ystart)"
 		/// @DnDArgument : "op" "2"
 		/// @DnDArgument : "value" "1"
@@ -98,7 +108,7 @@ function Sc_Enemy_Static_Pattern(enemy) {	/// @DnDAction : YoYo Games.Common.I
 		/// @DnDAction : YoYo Games.Common.Else
 		/// @DnDVersion : 1
 		/// @DnDHash : 6081E7DA
-		/// @DnDParent : 4DC28BF0
+		/// @DnDParent : 19B7C401
 		else{	/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 2AAD81D3
