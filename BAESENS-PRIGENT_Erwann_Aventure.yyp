@@ -58,6 +58,7 @@
     {"id":{"name":"Sc_Enemy_Attack","path":"scripts/Sc_Enemy_Attack/Sc_Enemy_Attack.yy",},},
     {"id":{"name":"Sc_Enemy_Path_Pattern","path":"scripts/Sc_Enemy_Path_Pattern/Sc_Enemy_Path_Pattern.yy",},},
     {"id":{"name":"Sc_Enemy_Static_Pattern","path":"scripts/Sc_Enemy_Static_Pattern/Sc_Enemy_Static_Pattern.yy",},},
+    {"id":{"name":"Sc_Follow_Player","path":"scripts/Sc_Follow_Player/Sc_Follow_Player.yy",},},
     {"id":{"name":"Sc_Heal_Player","path":"scripts/Sc_Heal_Player/Sc_Heal_Player.yy",},},
     {"id":{"name":"Sc_Player_GamePads_Controls","path":"scripts/Sc_Player_GamePads_Controls/Sc_Player_GamePads_Controls.yy",},},
     {"id":{"name":"Sc_Reduce_Player_Life","path":"scripts/Sc_Reduce_Player_Life/Sc_Reduce_Player_Life.yy",},},
