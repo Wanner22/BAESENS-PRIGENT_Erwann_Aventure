@@ -104,7 +104,7 @@ function Sc_Check_Interactable() {	/// @DnDAction : YoYo Games.Common.Temp_Var
 		/// @DnDParent : 4B521843
 		/// @DnDArgument : "var" "sprite_index"
 		/// @DnDArgument : "value" "S_Player_Front"
-		if(sprite_index == S_Player_Front){	/// @DnDAction : YoYo Games.Common.Variable
+		if(sprite_index == S_Player_Front_Walk){	/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 2BF69A57
 			/// @DnDInput : 2

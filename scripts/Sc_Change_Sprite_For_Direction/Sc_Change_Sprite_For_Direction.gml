@@ -35,21 +35,6 @@ function Sc_Change_Sprite_For_Direction() {	/// @DnDAction : YoYo Games.Common
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 2DD72C61
-	/// @DnDParent : 078747B0
-	/// @DnDArgument : "var" "sign(vspeed)"
-	/// @DnDArgument : "value" "1"
-	if(sign(vspeed) == 1){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
-		/// @DnDVersion : 1
-		/// @DnDHash : 6778955A
-		/// @DnDParent : 2DD72C61
-		/// @DnDArgument : "spriteind" "S_Player_Front"
-		/// @DnDSaveInfo : "spriteind" "S_Player_Front"
-		sprite_index = S_Player_Front;
-		image_index = 0;}
-
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
 	/// @DnDHash : 69ED0D69
 	/// @DnDParent : 078747B0
 	/// @DnDArgument : "var" "sign(vspeed)"

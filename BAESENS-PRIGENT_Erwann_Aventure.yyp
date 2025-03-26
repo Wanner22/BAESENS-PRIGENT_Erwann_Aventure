@@ -34,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"BAESENS-PRIGENT_Erwann_Aventure",
   "resources":[
@@ -72,7 +72,8 @@
     {"id":{"name":"S_Mechant","path":"sprites/S_Mechant/S_Mechant.yy",},},
     {"id":{"name":"S_MiniMap","path":"sprites/S_MiniMap/S_MiniMap.yy",},},
     {"id":{"name":"S_Player_Dos","path":"sprites/S_Player_Dos/S_Player_Dos.yy",},},
-    {"id":{"name":"S_Player_Front","path":"sprites/S_Player_Front/S_Player_Front.yy",},},
+    {"id":{"name":"S_Player_Front_IDLE","path":"sprites/S_Player_Front_IDLE/S_Player_Front_IDLE.yy",},},
+    {"id":{"name":"S_Player_Front_Walk","path":"sprites/S_Player_Front_Walk/S_Player_Front_Walk.yy",},},
     {"id":{"name":"S_Player_Left","path":"sprites/S_Player_Left/S_Player_Left.yy",},},
     {"id":{"name":"S_Player_Right","path":"sprites/S_Player_Right/S_Player_Right.yy",},},
     {"id":{"name":"S_Soin","path":"sprites/S_Soin/S_Soin.yy",},},

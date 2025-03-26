@@ -43,8 +43,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Player_Front",
-    "path":"sprites/S_Player_Front/S_Player_Front.yy",
+    "name":"S_Player_Front_Walk",
+    "path":"sprites/S_Player_Front_Walk/S_Player_Front_Walk.yy",
   },
   "spriteMaskId":null,
   "visible":true,
