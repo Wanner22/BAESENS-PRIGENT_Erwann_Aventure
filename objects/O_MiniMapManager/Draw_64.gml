@@ -16,9 +16,9 @@ if(global.showMap == true){	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
 	/// @DnDHash : 6F0048CF
 	/// @DnDParent : 280584EC
-	/// @DnDArgument : "x1" "32"
-	/// @DnDArgument : "y1" "1056 - 1056/global.rescale - 32"
-	/// @DnDArgument : "x2" "1920/global.rescale + 32"
-	/// @DnDArgument : "y2" "1056 -32"
+	/// @DnDArgument : "x1" "global.marge"
+	/// @DnDArgument : "y1" "global.camera_height - global.world_height/global.rescale - global.marge"
+	/// @DnDArgument : "x2" "global.world_width/global.rescale + global.marge"
+	/// @DnDArgument : "y2" "global.camera_height - global.marge"
 	/// @DnDArgument : "fill" "1"
-	draw_rectangle(32, 1056 - 1056/global.rescale - 32, 1920/global.rescale + 32, 1056 -32, 0);}
+	draw_rectangle(global.marge, global.camera_height - global.world_height/global.rescale - global.marge, global.world_width/global.rescale + global.marge, global.camera_height - global.marge, 0);}

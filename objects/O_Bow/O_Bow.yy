@@ -1,21 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"O_Mechant_Static",
+  "%Name":"O_Bow",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Mechant_Static",
+  "name":"O_Bow",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy_Manager","path":"objects/O_Enemy_Manager/O_Enemy_Manager.yy",},"propertyId":{"name":"mechant_hp","path":"objects/O_Enemy_Manager/O_Enemy_Manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Weapons_Manager","path":"objects/O_Weapons_Manager/O_Weapons_Manager.yy",},"propertyId":{"name":"is_unlocked","path":"objects/O_Weapons_Manager/O_Weapons_Manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Weapons",
+    "path":"folders/Objects/Weapons.yy",
   },
   "parentObjectId":{
-    "name":"O_Enemy_Manager",
-    "path":"objects/O_Enemy_Manager/O_Enemy_Manager.yy",
+    "name":"O_Weapons_Manager",
+    "path":"objects/O_Weapons_Manager/O_Weapons_Manager.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -35,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Mechant",
-    "path":"sprites/S_Mechant/S_Mechant.yy",
+    "name":"S_Bow",
+    "path":"sprites/S_Bow/S_Bow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

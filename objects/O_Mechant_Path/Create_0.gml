@@ -1,3 +1,13 @@
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 7131DDC0
+/// @DnDInput : 2
+/// @DnDArgument : "script" "Sc_CreateMMObjects"
+/// @DnDArgument : "arg" "self"
+/// @DnDArgument : "arg_1" "MMColor"
+/// @DnDSaveInfo : "script" "Sc_CreateMMObjects"
+script_execute(Sc_CreateMMObjects, self, MMColor);
+
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
 /// @DnDHash : 52F2BDA6
@@ -13,13 +23,3 @@ path_start(Path1, 1, path_action_reverse, true);
 /// @DnDArgument : "expr" "true"
 /// @DnDArgument : "var" "onPath"
 onPath = true;
-
-/// @DnDAction : YoYo Games.Common.Execute_Script
-/// @DnDVersion : 1.1
-/// @DnDHash : 7131DDC0
-/// @DnDInput : 2
-/// @DnDArgument : "script" "Sc_CreateMMObjects"
-/// @DnDArgument : "arg" "self"
-/// @DnDArgument : "arg_1" "MMColor"
-/// @DnDSaveInfo : "script" "Sc_CreateMMObjects"
-script_execute(Sc_CreateMMObjects, self, MMColor);
