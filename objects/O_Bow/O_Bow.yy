@@ -12,7 +12,7 @@
   ],
   "parent":{
     "name":"Weapons",
-    "path":"folders/Objects/Weapons.yy",
+    "path":"folders/Objects/Items/Weapons.yy",
   },
   "parentObjectId":{
     "name":"O_Weapons_Manager",
