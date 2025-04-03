@@ -65,12 +65,3 @@ if(gamepad_is_connected(0) == true){	/// @DnDAction : YoYo Games.Common.Execut
 /// @DnDArgument : "script" "Sc_Change_Sprite_For_Direction"
 /// @DnDSaveInfo : "script" "Sc_Change_Sprite_For_Direction"
 script_execute(Sc_Change_Sprite_For_Direction);
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 16DF093A
-/// @DnDInput : 2
-/// @DnDArgument : "msg" "player_dir_x"
-/// @DnDArgument : "msg_1" "player_dir_y"
-show_debug_message(string(player_dir_x) + @"
-" + string(player_dir_y));

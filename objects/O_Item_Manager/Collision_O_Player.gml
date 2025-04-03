@@ -1,26 +1,18 @@
-/// @DnDAction : YoYo Games.Common.Execute_Script
-/// @DnDVersion : 1.1
-/// @DnDHash : 111344DB
-/// @DnDArgument : "script" "Sc_Heal_Player"
-/// @DnDArgument : "arg" "2"
-/// @DnDSaveInfo : "script" "Sc_Heal_Player"
-script_execute(Sc_Heal_Player, 2);
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 4E31CE07
+/// @DnDHash : 3F8C1D6A
 /// @DnDArgument : "var" "sprite_index"
 /// @DnDArgument : "op" "2"
 /// @DnDArgument : "value" "-1"
 if(sprite_index > -1){	/// @DnDAction : YoYo Games.Instances.Call_User_Event
 	/// @DnDVersion : 1
-	/// @DnDHash : 246FBDC2
-	/// @DnDParent : 4E31CE07
+	/// @DnDHash : 7C8E59D7
+	/// @DnDParent : 3F8C1D6A
 	event_user(0);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 5DBF8D04
-	/// @DnDParent : 4E31CE07
+	/// @DnDHash : 66B9D77E
+	/// @DnDParent : 3F8C1D6A
 	sprite_index = noone;
 	image_index = 0;}

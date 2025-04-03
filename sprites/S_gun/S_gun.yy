@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"S_gun",
+  "%Name":"S_Gun",
   "bboxMode":0,
   "bbox_bottom":28,
   "bbox_left":2,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"0ae2a816-3e07-44db-97c4-4c1f55aa8ddb","blendMode":0,"displayName":"default","isLocked":false,"name":"0ae2a816-3e07-44db-97c4-4c1f55aa8ddb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"S_gun",
+  "name":"S_Gun",
   "nineSlice":null,
   "origin":0,
   "parent":{
     "name":"Weapons",
-    "path":"folders/Sprites/Weapons.yy",
+    "path":"folders/Sprites/Items/Weapons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"S_gun",
+    "%Name":"S_Gun",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"S_gun",
+    "name":"S_Gun",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0eda04e6-edf6-4c2a-ae35-db0f50c530a1","path":"sprites/S_gun/S_gun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0eda04e6-edf6-4c2a-ae35-db0f50c530a1","path":"sprites/S_Gun/S_Gun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2457f255-27b9-4cb2-b525-f93c2cf31da0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

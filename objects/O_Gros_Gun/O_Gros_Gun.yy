@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_Gun",
+  "%Name":"O_Gros_Gun",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Gun",
+  "name":"O_Gros_Gun",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Item_Manager","path":"objects/O_Item_Manager/O_Item_Manager.yy",},"propertyId":{"name":"is_unlocked","path":"objects/O_Item_Manager/O_Item_Manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
@@ -36,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Gun",
-    "path":"sprites/S_Gun/S_Gun.yy",
+    "name":"S_Gros_Gun",
+    "path":"sprites/S_Gros_Gun/S_Gros_Gun.yy",
   },
   "spriteMaskId":null,
   "visible":true,
