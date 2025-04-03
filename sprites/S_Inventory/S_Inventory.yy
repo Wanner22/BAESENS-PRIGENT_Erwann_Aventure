@@ -24,7 +24,7 @@
   "name":"S_Inventory",
   "nineSlice":{
     "$GMNineSliceData":"",
-    "bottom":6,
+    "bottom":3,
     "enabled":true,
     "guideColour":[4294902015,4294902015,4294902015,4294902015,],
     "highlightColour":1728023040,
@@ -40,7 +40,7 @@
       0,
       0,
     ],
-    "top":6,
+    "top":3,
   },
   "origin":0,
   "parent":{
