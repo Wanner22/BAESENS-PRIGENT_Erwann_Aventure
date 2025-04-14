@@ -74,8 +74,8 @@ function Sc_Enemy_Static_Pattern(enemy) {	/// @DnDAction : YoYo Games.Common.I
 	/// @DnDParent : 4716AFCF
 	/// @DnDArgument : "var" "distance_to_object(O_Player)"
 	/// @DnDArgument : "op" "4"
-	/// @DnDArgument : "value" "200"
-	if(distance_to_object(O_Player) >= 200){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDArgument : "value" "600"
+	if(distance_to_object(O_Player) >= 600){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 2053103F
 		/// @DnDParent : 19B7C401

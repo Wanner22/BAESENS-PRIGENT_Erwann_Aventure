@@ -18,3 +18,10 @@ image_alpha = ($FF0000E5 >> 24) / $ff;
 /// @DnDHash : 3ED80263
 /// @DnDArgument : "alarm" "3"
 alarm_set(3, 30);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3FA9AC7F
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "player_detected"
+player_detected = true;

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Sc_Change_Bullet_For_Weapon",
+  "%Name":"Sc_Shoot_Bullets",
   "isCompatibility":false,
   "isDnD":true,
-  "name":"Sc_Change_Bullet_For_Weapon",
+  "name":"Sc_Shoot_Bullets",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

@@ -23,3 +23,9 @@ path_start(Path1, 1, path_action_reverse, true);
 /// @DnDArgument : "expr" "true"
 /// @DnDArgument : "var" "onPath"
 onPath = true;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 0CFBF3CB
+/// @DnDArgument : "code" "dropItems = [O_Coin, O_Soin, O_Arrow_Collectible, O_Big_Bullet_Collectible, O_Bullet_Collectible];"
+dropItems = [O_Coin, O_Soin, O_Arrow_Collectible, O_Big_Bullet_Collectible, O_Bullet_Collectible];

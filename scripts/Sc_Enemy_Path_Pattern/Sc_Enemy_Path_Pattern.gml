@@ -113,8 +113,8 @@ function Sc_Enemy_Path_Pattern(enemy) {	/// @DnDAction : YoYo Games.Common.If_
 	/// @DnDParent : 459E36F1
 	/// @DnDArgument : "var" "distance_to_object(O_Player)"
 	/// @DnDArgument : "op" "4"
-	/// @DnDArgument : "value" "200"
-	if(distance_to_object(O_Player) >= 200){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDArgument : "value" "600"
+	if(distance_to_object(O_Player) >= 600){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 700A802B
 		/// @DnDParent : 1B729A54

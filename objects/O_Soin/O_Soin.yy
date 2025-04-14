@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Item_Manager","path":"objects/O_Item_Manager/O_Item_Manager.yy",},"propertyId":{"name":"is_unlocked","path":"objects/O_Item_Manager/O_Item_Manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{
-    "name":"Items",
-    "path":"folders/Objects/Items.yy",
+    "name":"Collectibles",
+    "path":"folders/Objects/Items/Collectibles.yy",
   },
   "parentObjectId":{
     "name":"O_Item_Manager",

@@ -91,9 +91,9 @@ function Sc_Player_GamePads_Controls() {	/// @DnDAction : YoYo Games.Gamepad.G
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 5816120E
 		/// @DnDParent : 733FDA0D
-		/// @DnDArgument : "script" "Sc_Change_Bullet_For_Weapon"
-		/// @DnDSaveInfo : "script" "Sc_Change_Bullet_For_Weapon"
-		script_execute(Sc_Change_Bullet_For_Weapon);}
+		/// @DnDArgument : "script" "Sc_Shoot_Bullets"
+		/// @DnDSaveInfo : "script" "Sc_Shoot_Bullets"
+		script_execute(Sc_Shoot_Bullets);}
 
 	/// @DnDAction : YoYo Games.Gamepad.If_Gamepad_Button_Pressed
 	/// @DnDVersion : 1.1
