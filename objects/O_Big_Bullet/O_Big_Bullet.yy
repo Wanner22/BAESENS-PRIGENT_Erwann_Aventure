@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"O_Bullet",
+  "%Name":"O_Big_Bullet",
   "eventList":[],
   "managed":true,
-  "name":"O_Bullet",
+  "name":"O_Big_Bullet",
   "overriddenProperties":[],
   "parent":{
     "name":"Weapons",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Bullet",
-    "path":"sprites/S_Bullet/S_Bullet.yy",
+    "name":"S_Big_Bullet",
+    "path":"sprites/S_Big_Bullet/S_Big_Bullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

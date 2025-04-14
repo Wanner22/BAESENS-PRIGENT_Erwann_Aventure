@@ -22,5 +22,5 @@ if(sprite_index > -1){	/// @DnDAction : YoYo Games.Instances.Call_User_Event
 /// @DnDHash : 6A511E61
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "O_Player_Coin_Manager.coin_amount"
-O_Player_Coin_Manager.coin_amount += 1;
+/// @DnDArgument : "var" "O_Player_Collectibles_Manager.coin_amount"
+O_Player_Collectibles_Manager.coin_amount += 1;

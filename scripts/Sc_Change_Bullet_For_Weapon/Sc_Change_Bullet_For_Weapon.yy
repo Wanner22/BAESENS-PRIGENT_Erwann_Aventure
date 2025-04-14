@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Sc_Change_Bullet_For_Weapon",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Sc_Change_Bullet_For_Weapon",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"O_Player_Coin_Manager",
-  "eventList":[],
+  "%Name":"O_Bullets_Manager",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Enemy_Manager","path":"objects/O_Enemy_Manager/O_Enemy_Manager.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"O_Player_Coin_Manager",
+  "name":"O_Bullets_Manager",
   "overriddenProperties":[],
   "parent":{
     "name":"Managers",
@@ -23,10 +26,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"coin_amount","filters":[],"listItems":[],"multiselect":false,"name":"coin_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"99","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"coin_max","filters":[],"listItems":[],"multiselect":false,"name":"coin_max","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"250","varType":1,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

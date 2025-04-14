@@ -69,5 +69,5 @@ script_execute(Sc_Change_Sprite_For_Direction);
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 2E573A7E
-/// @DnDArgument : "msg" "direction"
-show_debug_message(string(direction));
+/// @DnDArgument : "msg" "array_get(O_Inventory_Manager.items,O_Inventory_Manager.selected_index).is_unlocked"
+show_debug_message(string(array_get(O_Inventory_Manager.items,O_Inventory_Manager.selected_index).is_unlocked));
