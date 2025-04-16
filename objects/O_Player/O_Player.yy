@@ -45,8 +45,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Player_Front_Walk",
-    "path":"sprites/S_Player_Front_Walk/S_Player_Front_Walk.yy",
+    "name":"S_Player_Front_IDLE",
+    "path":"sprites/S_Player_Front_IDLE/S_Player_Front_IDLE.yy",
   },
   "spriteMaskId":null,
   "visible":true,

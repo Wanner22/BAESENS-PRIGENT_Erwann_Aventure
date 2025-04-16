@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"Sc_Player_GamePads_Controls",
   "parent":{
-    "name":"Controls",
-    "path":"folders/Scripts/Controls.yy",
+    "name":"Player Controls",
+    "path":"folders/Scripts/Player Controls.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

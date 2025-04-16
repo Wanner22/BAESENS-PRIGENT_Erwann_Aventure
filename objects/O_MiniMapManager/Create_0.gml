@@ -6,8 +6,8 @@
 /// @DnDArgument : "value_1" "false"
 /// @DnDArgument : "value_2" "32"
 /// @DnDArgument : "value_3" "1080"
-/// @DnDArgument : "value_4" "1056"
-/// @DnDArgument : "value_5" "1920"
+/// @DnDArgument : "value_4" "room_height"
+/// @DnDArgument : "value_5" "room_width"
 /// @DnDArgument : "value_6" "1920"
 /// @DnDArgument : "var" "rescale"
 /// @DnDArgument : "var_1" "showMap"
@@ -20,6 +20,6 @@ global.rescale = 4;
 global.showMap = false;
 global.marge = 32;
 global.camera_height = 1080;
-global.world_height = 1056;
-global.world_width = 1920;
+global.world_height = room_height;
+global.world_width = room_width;
 global.camera_width = 1920;

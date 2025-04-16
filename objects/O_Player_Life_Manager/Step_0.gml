@@ -15,4 +15,10 @@ if(player_hp <= 0){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDHash : 3AF60F53
 	/// @DnDApplyTo : {O_Player}
 	/// @DnDParent : 612D0BB6
-	with(O_Player) instance_destroy();}
+	with(O_Player) instance_destroy();
+
+	/// @DnDAction : YoYo Games.Rooms.Restart_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 06031555
+	/// @DnDParent : 612D0BB6
+	room_restart();}

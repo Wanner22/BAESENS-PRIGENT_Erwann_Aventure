@@ -35,12 +35,12 @@ for(rays = 0; rays <= ray_count; rays += 1) {	/// @DnDAction : YoYo Games.Loops
 		/// @DnDHash : 1FE8D041
 		/// @DnDInput : 2
 		/// @DnDParent : 3D8B28ED
-		/// @DnDArgument : "expr" "x + lengthdir_x(line_length, dir) + 32"
-		/// @DnDArgument : "expr_1" "y + lengthdir_y(line_length, dir) + 32"
+		/// @DnDArgument : "expr" "x + lengthdir_x(line_length, dir)"
+		/// @DnDArgument : "expr_1" "y + lengthdir_y(line_length, dir)"
 		/// @DnDArgument : "var" "xx"
 		/// @DnDArgument : "var_1" "yy"
-		xx = x + lengthdir_x(line_length, dir) + 32;
-		yy = y + lengthdir_y(line_length, dir) + 32;
+		xx = x + lengthdir_x(line_length, dir);
+		yy = y + lengthdir_y(line_length, dir);
 	
 		/// @DnDAction : YoYo Games.Common.If_Expression
 		/// @DnDVersion : 1
@@ -73,14 +73,42 @@ for(rays = 0; rays <= ray_count; rays += 1) {	/// @DnDAction : YoYo Games.Loops
 				/// @DnDVersion : 1
 				/// @DnDHash : 63E8D4EB
 				/// @DnDParent : 783E9C2E
-				/// @DnDArgument : "code" "/// @description Execute Code$(13_10)draw_circle(xx, yy, 5, false)"
+				/// @DnDArgument : "code" "/// @description Execute Code$(13_10)draw_circle(xx, yy, 2, false)"
 				/// @description Execute Code
-				draw_circle(xx, yy, 5, false)
+				draw_circle(xx, yy, 2, false)
 			
 				/// @DnDAction : YoYo Games.Loops.Break
 				/// @DnDVersion : 1
 				/// @DnDHash : 179F91BE
 				/// @DnDParent : 783E9C2E
+				break;}
+		
+			/// @DnDAction : YoYo Games.Common.If_Expression
+			/// @DnDVersion : 1
+			/// @DnDHash : 1F7C937D
+			/// @DnDParent : 7EAA3AEC
+			/// @DnDArgument : "expr" "instance_place(xx, yy, O_Collision)  != noone"
+			if(instance_place(xx, yy, O_Collision)  != noone){	/// @DnDAction : YoYo Games.Drawing.Set_Color
+				/// @DnDVersion : 1
+				/// @DnDHash : 6156EE50
+				/// @DnDParent : 1F7C937D
+				/// @DnDArgument : "color" "$FF0000FF"
+				draw_set_colour($FF0000FF & $ffffff);
+				var l6156EE50_0=($FF0000FF >> 24);
+				draw_set_alpha(l6156EE50_0 / $ff);
+			
+				/// @DnDAction : YoYo Games.Common.Execute_Code
+				/// @DnDVersion : 1
+				/// @DnDHash : 7369CC1F
+				/// @DnDParent : 1F7C937D
+				/// @DnDArgument : "code" "/// @description Execute Code$(13_10)draw_circle(xx, yy, 2, false)"
+				/// @description Execute Code
+				draw_circle(xx, yy, 2, false)
+			
+				/// @DnDAction : YoYo Games.Loops.Break
+				/// @DnDVersion : 1
+				/// @DnDHash : 3056C570
+				/// @DnDParent : 1F7C937D
 				break;}}
 	
 		/// @DnDAction : YoYo Games.Drawing.Set_Color
@@ -96,9 +124,9 @@ for(rays = 0; rays <= ray_count; rays += 1) {	/// @DnDAction : YoYo Games.Loops
 		/// @DnDVersion : 1
 		/// @DnDHash : 0FA6954A
 		/// @DnDParent : 3D8B28ED
-		/// @DnDArgument : "code" "/// @description Execute Code$(13_10)draw_circle(xx, yy, 1, false)"
+		/// @DnDArgument : "code" "/// @description Execute Code$(13_10)draw_circle(xx, yy, 0.5, false)"
 		/// @description Execute Code
-		draw_circle(xx, yy, 1, false)}
+		draw_circle(xx, yy, 0.5, false)}
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

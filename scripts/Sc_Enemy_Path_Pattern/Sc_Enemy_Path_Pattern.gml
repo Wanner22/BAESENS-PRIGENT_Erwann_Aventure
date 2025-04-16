@@ -63,9 +63,9 @@ function Sc_Enemy_Path_Pattern(enemy) {	/// @DnDAction : YoYo Games.Common.If_
 			/// @DnDVersion : 1
 			/// @DnDHash : 34A66D91
 			/// @DnDParent : 5EFAA789
-			/// @DnDArgument : "x" "O_Player.x - 32"
-			/// @DnDArgument : "y" "O_Player.y - 32"
-			direction = point_direction(x, y, O_Player.x - 32, O_Player.y - 32);
+			/// @DnDArgument : "x" "O_Player.x"
+			/// @DnDArgument : "y" "O_Player.y"
+			direction = point_direction(x, y, O_Player.x, O_Player.y);
 		
 			/// @DnDAction : YoYo Games.Movement.Set_Speed
 			/// @DnDVersion : 1

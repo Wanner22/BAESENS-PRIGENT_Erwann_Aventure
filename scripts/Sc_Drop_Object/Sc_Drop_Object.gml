@@ -23,9 +23,7 @@ function Sc_Drop_Object() {	/// @DnDAction : YoYo Games.Random.Randomize
 	/// @DnDVersion : 1
 	/// @DnDHash : 02891172
 	/// @DnDParent : 6C066C5C
-	/// @DnDArgument : "xpos" "32"
 	/// @DnDArgument : "xpos_relative" "1"
-	/// @DnDArgument : "ypos" "32"
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "array_get(dropItems, itemDroppedIndex)"
-	instance_create_layer(x + 32, y + 32, "Instances", array_get(dropItems, itemDroppedIndex));}
+	instance_create_layer(x + 0, y + 0, "Instances", array_get(dropItems, itemDroppedIndex));}

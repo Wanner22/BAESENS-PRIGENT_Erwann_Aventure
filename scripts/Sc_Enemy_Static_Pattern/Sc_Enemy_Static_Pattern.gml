@@ -21,9 +21,9 @@ function Sc_Enemy_Static_Pattern(enemy) {	/// @DnDAction : YoYo Games.Common.I
 			/// @DnDVersion : 1
 			/// @DnDHash : 5238E418
 			/// @DnDParent : 7216D2D4
-			/// @DnDArgument : "x" "O_Player.x - 32"
-			/// @DnDArgument : "y" "O_Player.y - 32"
-			direction = point_direction(x, y, O_Player.x - 32, O_Player.y - 32);
+			/// @DnDArgument : "x" "O_Player.x"
+			/// @DnDArgument : "y" "O_Player.y"
+			direction = point_direction(x, y, O_Player.x, O_Player.y);
 		
 			/// @DnDAction : YoYo Games.Movement.Set_Speed
 			/// @DnDVersion : 1
