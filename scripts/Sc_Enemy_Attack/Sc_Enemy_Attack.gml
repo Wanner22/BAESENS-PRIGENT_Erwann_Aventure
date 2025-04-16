@@ -19,4 +19,5 @@ function Sc_Enemy_Attack() {	/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 47B41D9F
 			/// @DnDParent : 2196C7F0
-			alarm_set(0, 30);}}}
+			/// @DnDArgument : "steps" "15"
+			alarm_set(0, 15);}}}

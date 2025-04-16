@@ -20,7 +20,19 @@ function Sc_Change_Sprite_For_Direction() {	/// @DnDAction : YoYo Games.Common
 			/// @DnDArgument : "imageind" ""
 			/// @DnDArgument : "spriteind" "S_Player_Right"
 			/// @DnDSaveInfo : "spriteind" "S_Player_Right"
-			sprite_index = S_Player_Right;}
+			sprite_index = S_Player_Right;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 6FE91A87
+			/// @DnDInput : 2
+			/// @DnDParent : 5C0A590B
+			/// @DnDArgument : "expr" "x + 32"
+			/// @DnDArgument : "expr_1" "y"
+			/// @DnDArgument : "var" "O_Action_Collision.x"
+			/// @DnDArgument : "var_1" "O_Action_Collision.y"
+			O_Action_Collision.x = x + 32;
+			O_Action_Collision.y = y;}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -35,7 +47,19 @@ function Sc_Change_Sprite_For_Direction() {	/// @DnDAction : YoYo Games.Common
 			/// @DnDArgument : "imageind" ""
 			/// @DnDArgument : "spriteind" "S_Player_Dos"
 			/// @DnDSaveInfo : "spriteind" "S_Player_Dos"
-			sprite_index = S_Player_Dos;}
+			sprite_index = S_Player_Dos;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 176181B6
+			/// @DnDInput : 2
+			/// @DnDParent : 25F02167
+			/// @DnDArgument : "expr" "x"
+			/// @DnDArgument : "expr_1" "y - 32"
+			/// @DnDArgument : "var" "O_Action_Collision.x"
+			/// @DnDArgument : "var_1" "O_Action_Collision.y"
+			O_Action_Collision.x = x;
+			O_Action_Collision.y = y - 32;}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -50,7 +74,19 @@ function Sc_Change_Sprite_For_Direction() {	/// @DnDAction : YoYo Games.Common
 			/// @DnDArgument : "imageind" ""
 			/// @DnDArgument : "spriteind" "S_Player_Left"
 			/// @DnDSaveInfo : "spriteind" "S_Player_Left"
-			sprite_index = S_Player_Left;}
+			sprite_index = S_Player_Left;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 17742CE0
+			/// @DnDInput : 2
+			/// @DnDParent : 61241A41
+			/// @DnDArgument : "expr" "x - 32"
+			/// @DnDArgument : "expr_1" "y"
+			/// @DnDArgument : "var" "O_Action_Collision.x"
+			/// @DnDArgument : "var_1" "O_Action_Collision.y"
+			O_Action_Collision.x = x - 32;
+			O_Action_Collision.y = y;}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -65,7 +101,19 @@ function Sc_Change_Sprite_For_Direction() {	/// @DnDAction : YoYo Games.Common
 			/// @DnDArgument : "imageind" ""
 			/// @DnDArgument : "spriteind" "S_Player_Front_IDLE"
 			/// @DnDSaveInfo : "spriteind" "S_Player_Front_IDLE"
-			sprite_index = S_Player_Front_IDLE;}}
+			sprite_index = S_Player_Front_IDLE;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 3DA12CD3
+			/// @DnDInput : 2
+			/// @DnDParent : 1AC161D6
+			/// @DnDArgument : "expr" "x"
+			/// @DnDArgument : "expr_1" "y + 32"
+			/// @DnDArgument : "var" "O_Action_Collision.x"
+			/// @DnDArgument : "var_1" "O_Action_Collision.y"
+			O_Action_Collision.x = x;
+			O_Action_Collision.y = y + 32;}}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -85,7 +133,19 @@ function Sc_Change_Sprite_For_Direction() {	/// @DnDAction : YoYo Games.Common
 			/// @DnDArgument : "imageind" ""
 			/// @DnDArgument : "spriteind" "S_Player_Right"
 			/// @DnDSaveInfo : "spriteind" "S_Player_Right"
-			sprite_index = S_Player_Right;}}
+			sprite_index = S_Player_Right;}
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 7AB3E7C5
+		/// @DnDInput : 2
+		/// @DnDParent : 587E61F3
+		/// @DnDArgument : "expr" "x + 32"
+		/// @DnDArgument : "expr_1" "y"
+		/// @DnDArgument : "var" "O_Action_Collision.x"
+		/// @DnDArgument : "var_1" "O_Action_Collision.y"
+		O_Action_Collision.x = x + 32;
+		O_Action_Collision.y = y;}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -105,7 +165,19 @@ function Sc_Change_Sprite_For_Direction() {	/// @DnDAction : YoYo Games.Common
 			/// @DnDArgument : "imageind" ""
 			/// @DnDArgument : "spriteind" "S_Player_Left"
 			/// @DnDSaveInfo : "spriteind" "S_Player_Left"
-			sprite_index = S_Player_Left;}}
+			sprite_index = S_Player_Left;}
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 301A45DF
+		/// @DnDInput : 2
+		/// @DnDParent : 373A0787
+		/// @DnDArgument : "expr" "x - 32"
+		/// @DnDArgument : "expr_1" "y"
+		/// @DnDArgument : "var" "O_Action_Collision.x"
+		/// @DnDArgument : "var_1" "O_Action_Collision.y"
+		O_Action_Collision.x = x - 32;
+		O_Action_Collision.y = y;}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -127,7 +199,19 @@ function Sc_Change_Sprite_For_Direction() {	/// @DnDAction : YoYo Games.Common
 			/// @DnDArgument : "imageind" ""
 			/// @DnDArgument : "spriteind" "S_Player_Front_Walk"
 			/// @DnDSaveInfo : "spriteind" "S_Player_Front_Walk"
-			sprite_index = S_Player_Front_Walk;}}
+			sprite_index = S_Player_Front_Walk;}
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 0A63C0FD
+		/// @DnDInput : 2
+		/// @DnDParent : 0999AA4B
+		/// @DnDArgument : "expr" "x"
+		/// @DnDArgument : "expr_1" "y + 32"
+		/// @DnDArgument : "var" "O_Action_Collision.x"
+		/// @DnDArgument : "var_1" "O_Action_Collision.y"
+		O_Action_Collision.x = x;
+		O_Action_Collision.y = y + 32;}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -149,4 +233,16 @@ function Sc_Change_Sprite_For_Direction() {	/// @DnDAction : YoYo Games.Common
 			/// @DnDArgument : "imageind" ""
 			/// @DnDArgument : "spriteind" "S_Player_Dos"
 			/// @DnDSaveInfo : "spriteind" "S_Player_Dos"
-			sprite_index = S_Player_Dos;}}}
+			sprite_index = S_Player_Dos;}
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 36222125
+		/// @DnDInput : 2
+		/// @DnDParent : 7352B2D1
+		/// @DnDArgument : "expr" "x"
+		/// @DnDArgument : "expr_1" "y - 32"
+		/// @DnDArgument : "var" "O_Action_Collision.x"
+		/// @DnDArgument : "var_1" "O_Action_Collision.y"
+		O_Action_Collision.x = x;
+		O_Action_Collision.y = y - 32;}}

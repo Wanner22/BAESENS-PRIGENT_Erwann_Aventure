@@ -17,8 +17,8 @@ image_alpha = ($FF7F7F7F >> 24) / $ff;
 /// @DnDHash : 22C1C4B0
 /// @DnDArgument : "var" "distance_to_object(O_Player)"
 /// @DnDArgument : "op" "3"
-/// @DnDArgument : "value" "15"
-if(distance_to_object(O_Player) <= 15){	/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDArgument : "value" "25"
+if(distance_to_object(O_Player) <= 25){	/// @DnDAction : YoYo Games.Common.Execute_Script
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 74F5473B
 	/// @DnDParent : 22C1C4B0

@@ -36,18 +36,6 @@ script_execute(Sc_StopMovement_When_No_KeyPressed);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 2EC3FA25
-/// @DnDArgument : "var" "is_attacking"
-/// @DnDArgument : "value" "false"
-if(is_attacking == false){	/// @DnDAction : YoYo Games.Instances.Color_Sprite
-	/// @DnDVersion : 1
-	/// @DnDHash : 6A1B290B
-	/// @DnDParent : 2EC3FA25
-	image_blend = $FFFFFFFF & $ffffff;
-	image_alpha = ($FFFFFFFF >> 24) / $ff;}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
 /// @DnDHash : 6CFF710C
 /// @DnDArgument : "var" "gamepad_is_connected(0)"
 /// @DnDArgument : "value" "true"
@@ -65,9 +53,3 @@ if(gamepad_is_connected(0) == true){	/// @DnDAction : YoYo Games.Common.Execut
 /// @DnDArgument : "script" "Sc_Change_Sprite_For_Direction"
 /// @DnDSaveInfo : "script" "Sc_Change_Sprite_For_Direction"
 script_execute(Sc_Change_Sprite_For_Direction);
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 4AB8033B
-/// @DnDArgument : "msg" "direction"
-show_debug_message(string(direction));
