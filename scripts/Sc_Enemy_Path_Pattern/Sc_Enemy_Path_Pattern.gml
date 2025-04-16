@@ -179,12 +179,11 @@ function Sc_Enemy_Path_Pattern(enemy) {	/// @DnDAction : YoYo Games.Common.If_
 				/// @DnDVersion : 1.1
 				/// @DnDHash : 4807F01E
 				/// @DnDParent : 27014BCE
-				/// @DnDArgument : "path" "Path1"
+				/// @DnDArgument : "path" "array_get(paths, pathIndex)"
 				/// @DnDArgument : "speed" "pathSpeed"
 				/// @DnDArgument : "atend" "path_action_reverse"
 				/// @DnDArgument : "relative" "true"
-				/// @DnDSaveInfo : "path" "Path1"
-				path_start(Path1, pathSpeed, path_action_reverse, true);
+				path_start(array_get(paths, pathIndex), pathSpeed, path_action_reverse, true);
 			
 				/// @DnDAction : YoYo Games.Paths.Path_Position
 				/// @DnDVersion : 1

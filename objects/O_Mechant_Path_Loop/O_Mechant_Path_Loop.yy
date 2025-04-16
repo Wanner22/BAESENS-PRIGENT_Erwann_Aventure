@@ -7,12 +7,10 @@
   ],
   "managed":true,
   "name":"O_Mechant_Path_Loop",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy_Manager","path":"objects/O_Enemy_Manager/O_Enemy_Manager.yy",},"propertyId":{"name":"mechant_hp","path":"objects/O_Enemy_Manager/O_Enemy_Manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
-  ],
+  "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Level 1",
+    "path":"folders/Objects/Enemies/Level 1.yy",
   },
   "parentObjectId":{
     "name":"O_Enemy_Manager",

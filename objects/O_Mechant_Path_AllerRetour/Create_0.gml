@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 15BA1763
-/// @DnDArgument : "code" "paths = [Path1, Path2, Path3, Path4]"
-paths = [Path1, Path2, Path3, Path4]
+/// @DnDArgument : "code" "paths = [Path1, Path2, Path3, Path4, Path5]"
+paths = [Path1, Path2, Path3, Path4, Path5]
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1

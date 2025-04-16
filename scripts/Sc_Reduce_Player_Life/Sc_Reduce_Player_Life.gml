@@ -58,8 +58,8 @@ function Sc_Reduce_Player_Life(amount) {	/// @DnDAction : YoYo Games.Common.If
 		/// @DnDHash : 39BEED48
 		/// @DnDApplyTo : {O_Player_Life_Manager}
 		/// @DnDParent : 4CB6002D
-		/// @DnDArgument : "steps" "90"
+		/// @DnDArgument : "steps" "60"
 		with(O_Player_Life_Manager) {
-		alarm_set(0, 90);
+		alarm_set(0, 60);
 		
 		}}}
