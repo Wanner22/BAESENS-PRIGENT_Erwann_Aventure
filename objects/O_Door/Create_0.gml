@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
-/// @DnDHash : 69FC4988
+/// @DnDHash : 64D6753A
 /// @DnDInput : 2
 /// @DnDArgument : "script" "Sc_CreateMMObjects"
 /// @DnDArgument : "arg" "self"

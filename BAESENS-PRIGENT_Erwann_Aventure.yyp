@@ -61,6 +61,7 @@
     {"id":{"name":"O_Bullet","path":"objects/O_Bullet/O_Bullet.yy",},},
     {"id":{"name":"O_Bullets_Manager","path":"objects/O_Bullets_Manager/O_Bullets_Manager.yy",},},
     {"id":{"name":"O_Coin","path":"objects/O_Coin/O_Coin.yy",},},
+    {"id":{"name":"O_Collision_NextRoom","path":"objects/O_Collision_NextRoom/O_Collision_NextRoom.yy",},},
     {"id":{"name":"O_Collision","path":"objects/O_Collision/O_Collision.yy",},},
     {"id":{"name":"O_Door_Manager","path":"objects/O_Door_Manager/O_Door_Manager.yy",},},
     {"id":{"name":"O_Door","path":"objects/O_Door/O_Door.yy",},},
@@ -88,6 +89,7 @@
     {"id":{"name":"Path4","path":"paths/Path4/Path4.yy",},},
     {"id":{"name":"Path5","path":"paths/Path5/Path5.yy",},},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
     {"id":{"name":"Tests","path":"rooms/Tests/Tests.yy",},},
     {"id":{"name":"Sc_Change_Sprite_For_Direction","path":"scripts/Sc_Change_Sprite_For_Direction/Sc_Change_Sprite_For_Direction.yy",},},
     {"id":{"name":"Sc_Check_Interactable","path":"scripts/Sc_Check_Interactable/Sc_Check_Interactable.yy",},},
@@ -138,6 +140,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
     {"roomId":{"name":"Tests","path":"rooms/Tests/Tests.yy",},},
   ],
   "templateType":"game",
