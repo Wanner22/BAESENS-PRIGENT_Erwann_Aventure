@@ -9,8 +9,8 @@
   "name":"O_Mechant_Path_Loop",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level 1",
-    "path":"folders/Objects/Enemies/Level 1.yy",
+    "name":"Ennemis niveau 1",
+    "path":"folders/Objects/Enemies/Ennemis niveau 1.yy",
   },
   "parentObjectId":{
     "name":"O_Enemy_Manager",
