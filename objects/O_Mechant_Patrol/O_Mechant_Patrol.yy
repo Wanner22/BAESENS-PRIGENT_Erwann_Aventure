@@ -10,8 +10,8 @@
   "name":"O_Mechant_Patrol",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ennemis niveau 1",
-    "path":"folders/Objects/Enemies/Ennemis niveau 1.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Enemies.yy",
   },
   "parentObjectId":{
     "name":"O_Enemy_Manager",
