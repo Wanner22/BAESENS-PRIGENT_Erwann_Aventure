@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1E43A44A
-/// @DnDArgument : "code" "paths = [Path1, Path2, Path3, Path4, Path5, Path6]"
-paths = [Path1, Path2, Path3, Path4, Path5, Path6]
+/// @DnDArgument : "code" "paths = [Path1, Path2, Path3, Path4, Path5, Path6, Path7, Path8, Path9, Path10]"
+paths = [Path1, Path2, Path3, Path4, Path5, Path6, Path7, Path8, Path9, Path10]
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
@@ -18,9 +18,10 @@ script_execute(Sc_CreateMMObjects, self, MMColor);
 /// @DnDVersion : 1.1
 /// @DnDHash : 52F2BDA6
 /// @DnDArgument : "path" "array_get(paths, pathIndex)"
+/// @DnDArgument : "speed" "pathSpeed"
 /// @DnDArgument : "atend" "path_action_continue"
 /// @DnDArgument : "relative" "true"
-path_start(array_get(paths, pathIndex), 1, path_action_continue, true);
+path_start(array_get(paths, pathIndex), pathSpeed, path_action_continue, true);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

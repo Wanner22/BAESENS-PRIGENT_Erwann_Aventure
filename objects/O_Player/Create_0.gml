@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 2A597D93
+/// @DnDArgument : "code" "show_debug_overlay(false)"
+show_debug_overlay(false)
+
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 69FC4988
@@ -7,3 +13,15 @@
 /// @DnDArgument : "arg_1" "MMColor"
 /// @DnDSaveInfo : "script" "Sc_CreateMMObjects"
 script_execute(Sc_CreateMMObjects, self, MMColor);
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 042A42C8
+/// @DnDArgument : "var" "is_debug"
+/// @DnDArgument : "value" "true"
+if(is_debug == true){	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 5766CE97
+	/// @DnDParent : 042A42C8
+	/// @DnDArgument : "alarm" "11"
+	alarm_set(11, 30);}

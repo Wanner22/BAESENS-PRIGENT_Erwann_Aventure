@@ -2,9 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 459E36F1
 /// @DnDComment : 
-/// @DnDArgument : "funcName" "Sc_Enemy_Path_Pattern"
+/// @DnDArgument : "funcName" "Sc_Enemy_Path_Pattern_Loop"
 /// @DnDArgument : "arg" "enemy"
-function Sc_Enemy_Path_Pattern(enemy) {	/// @DnDAction : YoYo Games.Common.If_Variable
+function Sc_Enemy_Path_Pattern_Loop(enemy) {	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 286368F1
 	/// @DnDParent : 459E36F1
@@ -181,9 +181,9 @@ function Sc_Enemy_Path_Pattern(enemy) {	/// @DnDAction : YoYo Games.Common.If_
 				/// @DnDParent : 27014BCE
 				/// @DnDArgument : "path" "array_get(paths, pathIndex)"
 				/// @DnDArgument : "speed" "pathSpeed"
-				/// @DnDArgument : "atend" "path_action_reverse"
+				/// @DnDArgument : "atend" "path_action_continue"
 				/// @DnDArgument : "relative" "true"
-				path_start(array_get(paths, pathIndex), pathSpeed, path_action_reverse, true);
+				path_start(array_get(paths, pathIndex), pathSpeed, path_action_continue, true);
 			
 				/// @DnDAction : YoYo Games.Paths.Path_Position
 				/// @DnDVersion : 1
