@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 3FB21F7F
-/// @DnDArgument : "code" "paths = [Path1, Path2, Path3, Path4, Path5, Path6, Path7, Path8, Path9, Path10]"
-paths = [Path1, Path2, Path3, Path4, Path5, Path6, Path7, Path8, Path9, Path10]
+/// @DnDArgument : "code" "paths = [Pth_1, Pth_2, Pth_3, Pth_4, Pth_5, Pth_6, Pth_7, Pth_8, Pth_9, Pth_10]"
+paths = [Pth_1, Pth_2, Pth_3, Pth_4, Pth_5, Pth_6, Pth_7, Pth_8, Pth_9, Pth_10]
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1

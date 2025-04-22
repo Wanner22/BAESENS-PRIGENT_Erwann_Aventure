@@ -17,8 +17,8 @@ if(global.showMap == true){	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDHash : 2529DB97
 	/// @DnDParent : 3C72299F
 	/// @DnDArgument : "x1" "x/global.rescale +global.marge"
-	/// @DnDArgument : "y1" "y/global.rescale + global.camera_height - global.world_height/global.rescale - global.marge"
+	/// @DnDArgument : "y1" "y/global.rescale + global.camera_height - room_height/global.rescale - global.marge"
 	/// @DnDArgument : "x2" "x/global.rescale + parentObject.sprite_width/global.rescale + global.marge"
-	/// @DnDArgument : "y2" "y/global.rescale + parentObject.sprite_height/global.rescale + global.camera_height - global.world_height/global.rescale - global.marge"
+	/// @DnDArgument : "y2" "y/global.rescale + parentObject.sprite_height/global.rescale + global.camera_height - room_height/global.rescale - global.marge"
 	/// @DnDArgument : "fill" "1"
-	draw_rectangle(x/global.rescale +global.marge, y/global.rescale + global.camera_height - global.world_height/global.rescale - global.marge, x/global.rescale + parentObject.sprite_width/global.rescale + global.marge, y/global.rescale + parentObject.sprite_height/global.rescale + global.camera_height - global.world_height/global.rescale - global.marge, 0);}
+	draw_rectangle(x/global.rescale +global.marge, y/global.rescale + global.camera_height - room_height/global.rescale - global.marge, x/global.rescale + parentObject.sprite_width/global.rescale + global.marge, y/global.rescale + parentObject.sprite_height/global.rescale + global.camera_height - room_height/global.rescale - global.marge, 0);}

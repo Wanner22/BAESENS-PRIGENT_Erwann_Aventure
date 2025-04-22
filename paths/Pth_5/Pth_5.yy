@@ -1,9 +1,9 @@
 {
   "$GMPath":"",
-  "%Name":"Path5",
+  "%Name":"Pth_5",
   "closed":true,
   "kind":0,
-  "name":"Path5",
+  "name":"Pth_5",
   "parent":{
     "name":"Paths",
     "path":"folders/Paths.yy",
