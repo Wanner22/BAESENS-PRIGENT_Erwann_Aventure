@@ -25,7 +25,15 @@ function Sc_Shoot_Bullets() {	/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDParent : 46BC66B8
 				/// @DnDArgument : "var" "O_Player_Collectibles_Manager.arrow_amount"
 				/// @DnDArgument : "op" "2"
-				if(O_Player_Collectibles_Manager.arrow_amount > 0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+				if(O_Player_Collectibles_Manager.arrow_amount > 0){	/// @DnDAction : YoYo Games.Common.Execute_Script
+					/// @DnDVersion : 1.1
+					/// @DnDHash : 48D99C45
+					/// @DnDParent : 55CD47B8
+					/// @DnDArgument : "script" "Sc_Sprite_when_shooting"
+					/// @DnDSaveInfo : "script" "Sc_Sprite_when_shooting"
+					script_execute(Sc_Sprite_when_shooting);
+				
+					/// @DnDAction : YoYo Games.Instances.Create_Instance
 					/// @DnDVersion : 1
 					/// @DnDHash : 093A4E09
 					/// @DnDParent : 55CD47B8
@@ -75,7 +83,15 @@ function Sc_Shoot_Bullets() {	/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDParent : 2EBA5D0F
 				/// @DnDArgument : "var" "O_Player_Collectibles_Manager.bullet_amount"
 				/// @DnDArgument : "op" "2"
-				if(O_Player_Collectibles_Manager.bullet_amount > 0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+				if(O_Player_Collectibles_Manager.bullet_amount > 0){	/// @DnDAction : YoYo Games.Common.Execute_Script
+					/// @DnDVersion : 1.1
+					/// @DnDHash : 448BB5BA
+					/// @DnDParent : 63827B70
+					/// @DnDArgument : "script" "Sc_Sprite_when_shooting"
+					/// @DnDSaveInfo : "script" "Sc_Sprite_when_shooting"
+					script_execute(Sc_Sprite_when_shooting);
+				
+					/// @DnDAction : YoYo Games.Instances.Create_Instance
 					/// @DnDVersion : 1
 					/// @DnDHash : 2A4C563D
 					/// @DnDParent : 63827B70
@@ -133,7 +149,15 @@ function Sc_Shoot_Bullets() {	/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDParent : 6F8C68F8
 				/// @DnDArgument : "var" "O_Player_Collectibles_Manager.bigbullet_amount"
 				/// @DnDArgument : "op" "2"
-				if(O_Player_Collectibles_Manager.bigbullet_amount > 0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+				if(O_Player_Collectibles_Manager.bigbullet_amount > 0){	/// @DnDAction : YoYo Games.Common.Execute_Script
+					/// @DnDVersion : 1.1
+					/// @DnDHash : 6969154E
+					/// @DnDParent : 7A75A9DD
+					/// @DnDArgument : "script" "Sc_Sprite_when_shooting"
+					/// @DnDSaveInfo : "script" "Sc_Sprite_when_shooting"
+					script_execute(Sc_Sprite_when_shooting);
+				
+					/// @DnDAction : YoYo Games.Instances.Create_Instance
 					/// @DnDVersion : 1
 					/// @DnDHash : 736DFB5D
 					/// @DnDParent : 7A75A9DD

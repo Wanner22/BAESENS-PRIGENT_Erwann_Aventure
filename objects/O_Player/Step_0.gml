@@ -47,9 +47,15 @@ if(gamepad_is_connected(0) == true){	/// @DnDAction : YoYo Games.Common.Execut
 	/// @DnDSaveInfo : "script" "Sc_Player_GamePads_Controls"
 	script_execute(Sc_Player_GamePads_Controls);}
 
-/// @DnDAction : YoYo Games.Common.Execute_Script
-/// @DnDVersion : 1.1
-/// @DnDHash : 4496C12C
-/// @DnDArgument : "script" "Sc_Change_Sprite_For_Direction"
-/// @DnDSaveInfo : "script" "Sc_Change_Sprite_For_Direction"
-script_execute(Sc_Change_Sprite_For_Direction);
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0E06FD50
+/// @DnDArgument : "var" "is_attacking"
+/// @DnDArgument : "value" "false"
+if(is_attacking == false){	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 4496C12C
+	/// @DnDParent : 0E06FD50
+	/// @DnDArgument : "script" "Sc_Change_Sprite_For_Direction"
+	/// @DnDSaveInfo : "script" "Sc_Change_Sprite_For_Direction"
+	script_execute(Sc_Change_Sprite_For_Direction);}

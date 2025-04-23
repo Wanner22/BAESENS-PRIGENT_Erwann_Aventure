@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"O_Collision_NextRoom",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"O_Collision_NextRoom",
   "overriddenProperties":[],

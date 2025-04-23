@@ -15,15 +15,16 @@ if(is_attacking == false){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 0DB80AD5
 	/// @DnDParent : 0AD32204
-	alarm_set(0, 30);
+	/// @DnDArgument : "steps" "10"
+	alarm_set(0, 10);
 
-	/// @DnDAction : YoYo Games.Instances.Color_Sprite
-	/// @DnDVersion : 1
-	/// @DnDHash : 0640ED72
+	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 0C630DB6
 	/// @DnDParent : 0AD32204
-	/// @DnDArgument : "colour" "$FF4AFF47"
-	image_blend = $FF4AFF47 & $ffffff;
-	image_alpha = ($FF4AFF47 >> 24) / $ff;
+	/// @DnDArgument : "script" "Sc_Sprite_when_shooting"
+	/// @DnDSaveInfo : "script" "Sc_Sprite_when_shooting"
+	script_execute(Sc_Sprite_when_shooting);
 
 	/// @DnDAction : YoYo Games.Common.Execute_Script
 	/// @DnDVersion : 1.1

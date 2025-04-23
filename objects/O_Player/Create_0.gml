@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2A597D93
-/// @DnDArgument : "code" "show_debug_overlay(true)"
-show_debug_overlay(true)
+/// @DnDArgument : "code" "show_debug_overlay(false)"
+show_debug_overlay(false)
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
