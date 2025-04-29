@@ -55,15 +55,15 @@ function Sc_Draw_Inventory_Amount() {	/// @DnDAction : YoYo Games.Instances.If
 	/// @DnDVersion : 1
 	/// @DnDHash : 168620A9
 	/// @DnDParent : 59CB01E0
-	/// @DnDArgument : "obj" "O_Gros_Gun"
-	/// @DnDSaveInfo : "obj" "O_Gros_Gun"
-	var l168620A9_0 = false;l168620A9_0 = instance_exists(O_Gros_Gun);if(l168620A9_0){	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDArgument : "obj" "O_Big_Gun"
+	/// @DnDSaveInfo : "obj" "O_Big_Gun"
+	var l168620A9_0 = false;l168620A9_0 = instance_exists(O_Big_Gun);if(l168620A9_0){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 2C9BAAAB
 		/// @DnDParent : 168620A9
-		/// @DnDArgument : "var" "O_Gros_Gun.is_unlocked"
+		/// @DnDArgument : "var" "O_Big_Gun.is_unlocked"
 		/// @DnDArgument : "value" "true"
-		if(O_Gros_Gun.is_unlocked == true){	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		if(O_Big_Gun.is_unlocked == true){	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 			/// @DnDVersion : 1
 			/// @DnDHash : 7C1D2CB9
 			/// @DnDParent : 2C9BAAAB

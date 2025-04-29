@@ -10,9 +10,9 @@ draw_self();
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "xscale" "4"
 /// @DnDArgument : "yscale" "4"
-/// @DnDArgument : "sprite" "S_Bullet"
-/// @DnDSaveInfo : "sprite" "S_Bullet"
-draw_sprite_ext(S_Bullet, 0, x + 0, y + 0, 4, 4, 0, $FFFFFF & $ffffff, 1);
+/// @DnDArgument : "sprite" "S_Big_Bullet"
+/// @DnDSaveInfo : "sprite" "S_Big_Bullet"
+draw_sprite_ext(S_Big_Bullet, 0, x + 0, y + 0, 4, 4, 0, $FFFFFF & $ffffff, 1);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
