@@ -32,6 +32,13 @@ if(mechant_hp <= 0){	/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDSaveInfo : "script" "Sc_Enemy_Path_Pattern_Loop"
 script_execute(Sc_Enemy_Path_Pattern_Loop, self);
 
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 624E16AC
+/// @DnDArgument : "script" "Sc_Enemy_Change_Sprite_For_Direction"
+/// @DnDSaveInfo : "script" "Sc_Enemy_Change_Sprite_For_Direction"
+script_execute(Sc_Enemy_Change_Sprite_For_Direction);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7A7DD3DB

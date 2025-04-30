@@ -7,7 +7,9 @@
   ],
   "managed":true,
   "name":"O_Mechant_Path_Loop",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy_Manager","path":"objects/O_Enemy_Manager/O_Enemy_Manager.yy",},"propertyId":{"name":"onPath","path":"objects/O_Enemy_Manager/O_Enemy_Manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+  ],
   "parent":{
     "name":"Enemies",
     "path":"folders/Objects/Enemies.yy",
@@ -33,7 +35,6 @@
     {"$GMObjectProperty":"v1","%Name":"pathPos","filters":[],"listItems":[],"multiselect":false,"name":"pathPos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"x_pos","filters":[],"listItems":[],"multiselect":false,"name":"x_pos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"y_pos","filters":[],"listItems":[],"multiselect":false,"name":"y_pos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"onPath","filters":[],"listItems":[],"multiselect":false,"name":"onPath","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"pathSpeed","filters":[],"listItems":[],"multiselect":false,"name":"pathSpeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"pathIndex","filters":[],"listItems":[],"multiselect":false,"name":"pathIndex","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
@@ -41,8 +42,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Mechant_4",
-    "path":"sprites/S_Mechant_4/S_Mechant_4.yy",
+    "name":"S_Enemy_Front_IDLE",
+    "path":"sprites/S_Enemy_Front_IDLE/S_Enemy_Front_IDLE.yy",
   },
   "spriteMaskId":null,
   "visible":true,

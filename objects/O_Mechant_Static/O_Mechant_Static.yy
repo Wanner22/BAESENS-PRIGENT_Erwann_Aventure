@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Mechant",
-    "path":"sprites/S_Mechant/S_Mechant.yy",
+    "name":"S_Enemy_Front_IDLE",
+    "path":"sprites/S_Enemy_Front_IDLE/S_Enemy_Front_IDLE.yy",
   },
   "spriteMaskId":null,
   "visible":true,
