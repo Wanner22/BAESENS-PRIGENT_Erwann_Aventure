@@ -256,7 +256,14 @@
           -8,0,1,2,-11,13,-33,-2147483648,-2,13,-13,-2147483648,1,2,-11,13,-33,-2147483648,-3,13,-2,0,-24,13,-31,
           0,1,13,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Environment","path":"tilesets/Environment/Environment.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Sol","depth":1300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Sol","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":33,"SerialiseWidth":60,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Ombres","depth":1300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Ombres","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":33,"SerialiseWidth":60,"TileCompressedData":[
+          -61,-2147483648,-19,8,-21,-2147483648,-18,8,-266,-2147483648,-6,8,-14,-2147483648,-2,8,1,0,-20,-2147483648,
+          -3,8,-2,-2147483648,-3,8,-129,-2147483648,-5,8,-133,-2147483648,1,8,-4,-2147483648,3,8,-2147483648,-2147483648,
+          -8,8,-263,-2147483648,-4,8,-110,-2147483648,-3,8,-50,-2147483648,-10,8,-47,-2147483648,-3,8,-77,-2147483648,
+          -2,8,-217,-2147483648,-3,8,-90,-2147483648,-15,8,-68,-2147483648,-9,8,-2,-2147483648,-3,8,-38,-2147483648,
+          4,8,-2147483648,-2147483648,8,-130,-2147483648,-3,8,3,-2147483648,8,8,-37,-2147483648,1,8,-69,-2147483648,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"Environment","path":"tilesets/Environment/Environment.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Sol","depth":1400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Sol","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":33,"SerialiseWidth":60,"TileCompressedData":[
           -61,6,4,4,6,6,4,-42,6,-2,4,-12,6,1,4,-4,6,1,4,-37,6,4,4,6,4,4,-5,6,-2,4,2,6,4,-7,6,3,4,6,4,-5,6,2,4,
           6,-3,4,-26,6,-2,4,5,6,4,4,6,4,-6,6,3,4,5,5,-3,6,-2,4,-3,6,-3,4,-6,6,1,4,-15,6,-2,4,-15,6,1,4,-6,6,3,
           4,5,5,-3,6,-2,4,-11,6,-3,4,1,6,-3,4,-10,6,-2,4,-4,6,1,4,-8,6,10,4,6,6,4,4,6,4,6,6,4,-7,6,1,4,-6,6,-2,
@@ -279,7 +286,7 @@
           6,4,4,6,6,4,-5,6,4,4,6,6,4,-4,6,3,4,6,4,-24,6,1,4,-8,6,1,4,-6,6,1,4,-3,6,-2,4,1,6,-3,4,-6,6,-2,4,-23,
           6,-3,4,-16,6,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Environment","path":"tilesets/Environment/Environment.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":1400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":1500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"Level1",
   "parent":{

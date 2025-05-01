@@ -2,9 +2,9 @@
 /// @DnDVersion : 1
 /// @DnDHash : 293574DF
 /// @DnDArgument : "var" "O_Player_Life_Manager.player_hp"
-/// @DnDArgument : "not" "1"
+/// @DnDArgument : "op" "1"
 /// @DnDArgument : "value" "O_Player_Life_Manager.max_hp"
-if(!(O_Player_Life_Manager.player_hp == O_Player_Life_Manager.max_hp)){	/// @DnDAction : YoYo Games.Common.Execute_Script
+if(O_Player_Life_Manager.player_hp < O_Player_Life_Manager.max_hp){	/// @DnDAction : YoYo Games.Common.Execute_Script
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 6FD43FF8
 	/// @DnDParent : 293574DF

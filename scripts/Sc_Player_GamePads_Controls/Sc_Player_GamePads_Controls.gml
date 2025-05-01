@@ -105,9 +105,9 @@ function Sc_Player_GamePads_Controls() {	/// @DnDAction : YoYo Games.Gamepad.G
 		/// @DnDHash : 0F160867
 		/// @DnDParent : 6D254077
 		/// @DnDArgument : "var" "O_Player_Life_Manager.player_hp"
-		/// @DnDArgument : "not" "1"
+		/// @DnDArgument : "op" "1"
 		/// @DnDArgument : "value" "O_Player_Life_Manager.max_hp"
-		if(!(O_Player_Life_Manager.player_hp == O_Player_Life_Manager.max_hp)){	/// @DnDAction : YoYo Games.Common.Execute_Script
+		if(O_Player_Life_Manager.player_hp < O_Player_Life_Manager.max_hp){	/// @DnDAction : YoYo Games.Common.Execute_Script
 			/// @DnDVersion : 1.1
 			/// @DnDHash : 330A8593
 			/// @DnDParent : 0F160867

@@ -51,3 +51,22 @@ if(collided == true){	/// @DnDAction : YoYo Games.Common.Execute_Script
 	/// @DnDArgument : "script" "Sc_Enemy_Attack"
 	/// @DnDSaveInfo : "script" "Sc_Enemy_Attack"
 	script_execute(Sc_Enemy_Attack);}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1195EF68
+/// @DnDArgument : "var" "player_detected"
+/// @DnDArgument : "value" "true"
+if(player_detected == true){	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7272428E
+	/// @DnDParent : 1195EF68
+	/// @DnDArgument : "var" "alarm_get(2)"
+	/// @DnDArgument : "op" "3"
+	if(alarm_get(2) <= 0){	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 329BFC19
+		/// @DnDParent : 7272428E
+		/// @DnDArgument : "steps" "120"
+		/// @DnDArgument : "alarm" "2"
+		alarm_set(2, 120);}}
