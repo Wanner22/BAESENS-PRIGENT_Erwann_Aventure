@@ -64,15 +64,16 @@ function Sc_Player_GamePads_Controls() {	/// @DnDAction : YoYo Games.Gamepad.G
 			/// @DnDVersion : 1
 			/// @DnDHash : 6F1322B3
 			/// @DnDParent : 55B50CF2
-			alarm_set(0, 30);
+			/// @DnDArgument : "steps" "10"
+			alarm_set(0, 10);
 		
-			/// @DnDAction : YoYo Games.Instances.Color_Sprite
-			/// @DnDVersion : 1
-			/// @DnDHash : 2485242D
+			/// @DnDAction : YoYo Games.Common.Execute_Script
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 442B0361
 			/// @DnDParent : 55B50CF2
-			/// @DnDArgument : "colour" "$FF4AFF47"
-			image_blend = $FF4AFF47 & $ffffff;
-			image_alpha = ($FF4AFF47 >> 24) / $ff;
+			/// @DnDArgument : "script" "Sc_Sprite_when_shooting"
+			/// @DnDSaveInfo : "script" "Sc_Sprite_when_shooting"
+			script_execute(Sc_Sprite_when_shooting);
 		
 			/// @DnDAction : YoYo Games.Common.Execute_Script
 			/// @DnDVersion : 1.1

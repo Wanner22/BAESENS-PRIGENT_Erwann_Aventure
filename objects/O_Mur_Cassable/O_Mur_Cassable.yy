@@ -10,8 +10,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"O_Mur_Cassable_Manager",
-    "path":"objects/O_Mur_Cassable_Manager/O_Mur_Cassable_Manager.yy",
+    "name":"O_Murs_Cassables_Manager",
+    "path":"objects/O_Murs_Cassables_Manager/O_Murs_Cassables_Manager.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -26,7 +26,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"box_hp","filters":[],"listItems":[],"multiselect":false,"name":"box_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"MMColor","filters":[],"listItems":[],"multiselect":false,"name":"MMColor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF999924","varType":7,},
+    {"$GMObjectProperty":"v1","%Name":"is_interracted","filters":[],"listItems":[],"multiselect":false,"name":"is_interracted","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,

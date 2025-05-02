@@ -7,7 +7,7 @@
   "managed":true,
   "name":"O_Big_Gun",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Item_Manager","path":"objects/O_Item_Manager/O_Item_Manager.yy",},"propertyId":{"name":"is_unlocked","path":"objects/O_Item_Manager/O_Item_Manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Item_Manager","path":"objects/O_Item_Manager/O_Item_Manager.yy",},"propertyId":{"name":"is_unlocked","path":"objects/O_Item_Manager/O_Item_Manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
     "name":"Weapons",

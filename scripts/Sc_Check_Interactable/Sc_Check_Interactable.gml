@@ -37,13 +37,7 @@ function Sc_Check_Interactable() {	/// @DnDAction : YoYo Games.Common.Temp_Var
 		/// @DnDArgument : "var" "doesCollideWithInteractable"
 		/// @DnDArgument : "var_1" "interractable"
 		doesCollideWithInteractable += true;
-		interractable = interractableTemp;
-	
-		/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-		/// @DnDVersion : 1
-		/// @DnDHash : 25F18DCA
-		/// @DnDParent : 76E65A7B
-		show_debug_message(string("debug message"));}
+		interractable = interractableTemp;}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
