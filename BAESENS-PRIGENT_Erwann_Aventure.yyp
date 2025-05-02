@@ -57,6 +57,7 @@
   "name":"BAESENS-PRIGENT_Erwann_Aventure",
   "resources":[
     {"id":{"name":"F_Coin","path":"fonts/F_Coin/F_Coin.yy",},},
+    {"id":{"name":"F_Dialogues","path":"fonts/F_Dialogues/F_Dialogues.yy",},},
     {"id":{"name":"O_Action_Collision","path":"objects/O_Action_Collision/O_Action_Collision.yy",},},
     {"id":{"name":"O_Arrow_Collectible","path":"objects/O_Arrow_Collectible/O_Arrow_Collectible.yy",},},
     {"id":{"name":"O_Arrow","path":"objects/O_Arrow/O_Arrow.yy",},},
@@ -126,6 +127,7 @@
     {"id":{"name":"Sc_Change_Sprite_For_Direction","path":"scripts/Sc_Change_Sprite_For_Direction/Sc_Change_Sprite_For_Direction.yy",},},
     {"id":{"name":"Sc_Check_Interactable","path":"scripts/Sc_Check_Interactable/Sc_Check_Interactable.yy",},},
     {"id":{"name":"Sc_CreateMMObjects","path":"scripts/Sc_CreateMMObjects/Sc_CreateMMObjects.yy",},},
+    {"id":{"name":"Sc_Draw_Dialogues","path":"scripts/Sc_Draw_Dialogues/Sc_Draw_Dialogues.yy",},},
     {"id":{"name":"Sc_Draw_Inventory_Amount","path":"scripts/Sc_Draw_Inventory_Amount/Sc_Draw_Inventory_Amount.yy",},},
     {"id":{"name":"Sc_Drop_Object","path":"scripts/Sc_Drop_Object/Sc_Drop_Object.yy",},},
     {"id":{"name":"Sc_Enemy_Attack","path":"scripts/Sc_Enemy_Attack/Sc_Enemy_Attack.yy",},},
@@ -151,6 +153,7 @@
     {"id":{"name":"S_Character","path":"sprites/S_Character/S_Character.yy",},},
     {"id":{"name":"S_Coin","path":"sprites/S_Coin/S_Coin.yy",},},
     {"id":{"name":"S_Collision","path":"sprites/S_Collision/S_Collision.yy",},},
+    {"id":{"name":"S_Dialogues","path":"sprites/S_Dialogues/S_Dialogues.yy",},},
     {"id":{"name":"S_Door","path":"sprites/S_Door/S_Door.yy",},},
     {"id":{"name":"S_Enemy_Dos_IDLE","path":"sprites/S_Enemy_Dos_IDLE/S_Enemy_Dos_IDLE.yy",},},
     {"id":{"name":"S_Enemy_Dos_Walk","path":"sprites/S_Enemy_Dos_Walk/S_Enemy_Dos_Walk.yy",},},
