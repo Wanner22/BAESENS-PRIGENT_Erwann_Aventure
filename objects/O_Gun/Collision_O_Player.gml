@@ -16,10 +16,3 @@ if(sprite_index > -1){	/// @DnDAction : YoYo Games.Instances.Call_User_Event
 	/// @DnDParent : 4A77A163
 	sprite_index = noone;
 	image_index = 0;}
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 2E647083
-/// @DnDArgument : "expr" "true"
-/// @DnDArgument : "var" "text_showed"
-text_showed = true;

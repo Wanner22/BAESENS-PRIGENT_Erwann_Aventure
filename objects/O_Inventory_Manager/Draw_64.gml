@@ -94,9 +94,9 @@ if(global.showInventory == true){	/// @DnDAction : YoYo Games.Drawing.Draw_Spr
 	/// @DnDVersion : 1
 	/// @DnDHash : 6293C57B
 	/// @DnDParent : 29C0140D
-	/// @DnDArgument : "font" "F_Coin"
-	/// @DnDSaveInfo : "font" "F_Coin"
-	draw_set_font(F_Coin);
+	/// @DnDArgument : "font" "F_General"
+	/// @DnDSaveInfo : "font" "F_General"
+	draw_set_font(F_General);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1

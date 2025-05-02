@@ -3,11 +3,14 @@
   "%Name":"O_Big_Gun",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_Big_Gun",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Item_Manager","path":"objects/O_Item_Manager/O_Item_Manager.yy",},"propertyId":{"name":"is_unlocked","path":"objects/O_Item_Manager/O_Item_Manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Item_Manager","path":"objects/O_Item_Manager/O_Item_Manager.yy",},"propertyId":{"name":"is_unlocked","path":"objects/O_Item_Manager/O_Item_Manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{
     "name":"Weapons",
@@ -30,13 +33,16 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"text","filters":[],"listItems":[],"multiselect":false,"name":"text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Ce machin doit infliger de gros degats !\"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"text_is_showed","filters":[],"listItems":[],"multiselect":false,"name":"text_is_showed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Gros_Gun",
-    "path":"sprites/S_Gros_Gun/S_Gros_Gun.yy",
+    "name":"S_Big_Gun",
+    "path":"sprites/S_Big_Gun/S_Big_Gun.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -32,7 +32,7 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"onPathBoss","filters":[],"listItems":[],"multiselect":false,"name":"onPathBoss","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"aller","filters":[],"listItems":[],"multiselect":false,"name":"aller","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"boss_hp","filters":[],"listItems":[],"multiselect":false,"name":"boss_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"boss_hp","filters":[],"listItems":[],"multiselect":false,"name":"boss_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

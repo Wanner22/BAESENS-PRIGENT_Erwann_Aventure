@@ -10,19 +10,19 @@ function Sc_Draw_Dialogues(currentText) {	/// @DnDAction : YoYo Games.Drawing.
 	/// @DnDParent : 35D16821
 	/// @DnDArgument : "x" "global.camera_width/2"
 	/// @DnDArgument : "y" "global.camera_height - 150"
-	/// @DnDArgument : "xscale" "30"
+	/// @DnDArgument : "xscale" "40"
 	/// @DnDArgument : "yscale" "4"
 	/// @DnDArgument : "sprite" "S_Dialogues"
 	/// @DnDSaveInfo : "sprite" "S_Dialogues"
-	draw_sprite_ext(S_Dialogues, 0, global.camera_width/2, global.camera_height - 150, 30, 4, 0, $FFFFFF & $ffffff, 1);
+	draw_sprite_ext(S_Dialogues, 0, global.camera_width/2, global.camera_height - 150, 40, 4, 0, $FFFFFF & $ffffff, 1);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Font
 	/// @DnDVersion : 1
 	/// @DnDHash : 5D50D301
 	/// @DnDParent : 35D16821
-	/// @DnDArgument : "font" "F_Dialogues"
-	/// @DnDSaveInfo : "font" "F_Dialogues"
-	draw_set_font(F_Dialogues);
+	/// @DnDArgument : "font" "F_General"
+	/// @DnDSaveInfo : "font" "F_General"
+	draw_set_font(F_General);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
@@ -38,5 +38,7 @@ function Sc_Draw_Dialogues(currentText) {	/// @DnDAction : YoYo Games.Drawing.
 	/// @DnDParent : 35D16821
 	/// @DnDArgument : "x" "global.camera_width/2"
 	/// @DnDArgument : "y" "global.camera_height - 150"
+	/// @DnDArgument : "xscale" "1.8"
+	/// @DnDArgument : "yscale" "1.8"
 	/// @DnDArgument : "caption" "currentText"
-	draw_text_transformed(global.camera_width/2, global.camera_height - 150, string(currentText) + "", 1, 1, 0);}
+	draw_text_transformed(global.camera_width/2, global.camera_height - 150, string(currentText) + "", 1.8, 1.8, 0);}

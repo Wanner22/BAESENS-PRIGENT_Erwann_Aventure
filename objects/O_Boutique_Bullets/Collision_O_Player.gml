@@ -9,8 +9,9 @@ if(O_Player_Collectibles_Manager.coin_amount >= price){	/// @DnDAction : YoYo 
 	/// @DnDHash : 3C6FEB69
 	/// @DnDParent : 6DA0753B
 	/// @DnDArgument : "var" "O_Player_Collectibles_Manager.bullet_amount"
+	/// @DnDArgument : "op" "1"
 	/// @DnDArgument : "value" "O_Player_Collectibles_Manager.bullet_max"
-	if(O_Player_Collectibles_Manager.bullet_amount == O_Player_Collectibles_Manager.bullet_max){	/// @DnDAction : YoYo Games.Instances.Call_User_Event
+	if(O_Player_Collectibles_Manager.bullet_amount < O_Player_Collectibles_Manager.bullet_max){	/// @DnDAction : YoYo Games.Instances.Call_User_Event
 		/// @DnDVersion : 1
 		/// @DnDHash : 473AA9D8
 		/// @DnDParent : 3C6FEB69

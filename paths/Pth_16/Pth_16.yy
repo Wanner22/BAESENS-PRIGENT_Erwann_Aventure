@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"Pth_16",
+  "closed":true,
+  "kind":0,
+  "name":"Pth_16",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":416.0,"y":800.0,},
+    {"speed":100.0,"x":736.0,"y":800.0,},
+    {"speed":100.0,"x":736.0,"y":992.0,},
+    {"speed":100.0,"x":416.0,"y":992.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
