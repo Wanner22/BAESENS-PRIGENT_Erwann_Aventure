@@ -20,7 +20,7 @@
     "name":"O_Item_Manager",
     "path":"objects/O_Item_Manager/O_Item_Manager.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

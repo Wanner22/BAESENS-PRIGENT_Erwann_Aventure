@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 3BF1D7C9
+/// @DnDArgument : "font" "F_General"
+/// @DnDSaveInfo : "font" "F_General"
+draw_set_font(F_General);
+
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 208D25C9

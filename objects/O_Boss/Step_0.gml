@@ -117,4 +117,16 @@ if(boss_hp <= 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 1D9008DC
 	/// @DnDParent : 1FE14AF7
-	instance_destroy();}
+	instance_destroy();
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 2F98A8BD
+	/// @DnDApplyTo : {O_Player}
+	/// @DnDParent : 1FE14AF7
+	/// @DnDArgument : "steps" "120"
+	/// @DnDArgument : "alarm" "3"
+	with(O_Player) {
+	alarm_set(3, 120);
+	
+	}}
