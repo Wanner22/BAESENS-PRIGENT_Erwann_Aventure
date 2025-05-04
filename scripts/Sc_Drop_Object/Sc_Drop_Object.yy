@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"Sc_Drop_Object",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Enemy",
+    "path":"folders/Scripts/Enemy.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

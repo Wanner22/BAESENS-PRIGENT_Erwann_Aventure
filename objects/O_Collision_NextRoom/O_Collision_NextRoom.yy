@@ -6,8 +6,8 @@
   "name":"O_Collision_NextRoom",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Collisions",
+    "path":"folders/Objects/Collisions.yy",
   },
   "parentObjectId":null,
   "persistent":false,

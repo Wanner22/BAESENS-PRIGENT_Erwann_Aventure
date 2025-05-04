@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"Sc_StopMovement_When_No_KeyPressed",
   "parent":{
-    "name":"Player Controls",
-    "path":"folders/Scripts/Player Controls.yy",
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

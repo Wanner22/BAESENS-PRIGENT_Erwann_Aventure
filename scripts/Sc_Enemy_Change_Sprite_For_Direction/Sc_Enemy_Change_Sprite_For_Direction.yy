@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"Sc_Enemy_Change_Sprite_For_Direction",
   "parent":{
-    "name":"Enemy Patterns",
-    "path":"folders/Scripts/Enemy Patterns.yy",
+    "name":"Enemy",
+    "path":"folders/Scripts/Enemy.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

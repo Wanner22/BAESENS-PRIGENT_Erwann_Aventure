@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"Sc_Enemy_Path_Pattern_AllerRetour",
   "parent":{
-    "name":"Enemy Patterns",
-    "path":"folders/Scripts/Enemy Patterns.yy",
+    "name":"Enemy",
+    "path":"folders/Scripts/Enemy.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

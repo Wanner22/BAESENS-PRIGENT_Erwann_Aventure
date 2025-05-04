@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"Sc_Draw_Dialogues",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"UI",
+    "path":"folders/Scripts/UI.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

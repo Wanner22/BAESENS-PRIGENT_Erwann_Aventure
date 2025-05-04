@@ -16,7 +16,7 @@
   "isDnd":false,
   "layers":[
     {"$GMRPathLayer":"","%Name":"Path_1","colour":4278190335,"depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Path_1","pathId":{"name":"Pth_Boss","path":"paths/Pth_Boss/Pth_Boss.yy",},"properties":[],"resourceType":"GMRPathLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMREffectLayer":"","%Name":"Effect_1","depth":100,"effectEnabled":true,"effectType":"_filter_screenshake","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Effect_1","properties":[
+    {"$GMREffectLayer":"","%Name":"Screen_Shake","depth":100,"effectEnabled":true,"effectType":"_filter_screenshake","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Screen_Shake","properties":[
         {"name":"g_Magnitude","type":0,"value":"10",},
         {"name":"g_ShakeSpeed","type":0,"value":"4",},
         {"name":"g_NoiseTexture","type":2,"value":"_filter_screenshake_noise",},
@@ -43,8 +43,8 @@
   ],
   "name":"Boss",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Levels",
+    "path":"folders/Rooms/Levels.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
